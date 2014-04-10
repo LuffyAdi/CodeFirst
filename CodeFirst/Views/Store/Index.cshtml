@@ -1,0 +1,62 @@
+﻿@model IEnumerable<CodeFirst.Models.Genre>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table>
+    <tr>
+        <th>
+            GenreId
+        </th>
+        <th>
+            ArtistId
+        </th>
+        <th>
+            Title
+        </th>
+        <th>
+            Price
+        </th>
+        <th>
+            AlbumArtUrl
+        </th>
+        <th>
+            Test1
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.GenreId }) |
+            @Html.ActionLink("Details", "Details", new { id=item.Name }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.Description })
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.GenreId)
+        </td>
+      <td>
+            @Html.DisplayFor(modelItem => item.Name)
+        </td>
+       <td>
+            @Html.DisplayFor(modelItem => item.Description)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Album)
+        </td>
+       <td>
+            @Html.DisplayFor(modelItem => item.Test1)
+        </td>
+       
+       
+    </tr>
+}
+
+</table>

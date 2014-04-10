@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeFirst", "CodeFirst\CodeFirst.csproj", "{F7E93F0C-C19B-4371-87C9-19DA542A358F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeFirst.Tests", "CodeFirst.Tests\CodeFirst.Tests.csproj", "{BAD43080-45AF-4706-9D02-15A62BF28B3D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F7E93F0C-C19B-4371-87C9-19DA542A358F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7E93F0C-C19B-4371-87C9-19DA542A358F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7E93F0C-C19B-4371-87C9-19DA542A358F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7E93F0C-C19B-4371-87C9-19DA542A358F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAD43080-45AF-4706-9D02-15A62BF28B3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAD43080-45AF-4706-9D02-15A62BF28B3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAD43080-45AF-4706-9D02-15A62BF28B3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAD43080-45AF-4706-9D02-15A62BF28B3D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

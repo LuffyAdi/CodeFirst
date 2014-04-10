@@ -1,0 +1,28 @@
+﻿@model CodeFirst.Models.Test
+
+@{
+    ViewBag.Title = "TestView";
+}
+
+<h2>TestView</h2>
+<table>
+@foreach (var item in Model) {
+    
+    <tr>
+       
+        <td>
+            @Html.DisplayFor(modelItem => item.id)
+        </td>
+      <td>
+            @Html.DisplayFor(modelItem => item.test)
+        </td>
+      
+        <td>
+            @Html.DisplayFor(modelItem => item.Album)
+        </td>
+       
+       
+    </tr>
+}
+
+</table>
